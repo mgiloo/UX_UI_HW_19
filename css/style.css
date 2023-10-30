@@ -35,6 +35,7 @@
     width: 33%;
     padding-top: 0%;
     padding-bottom: 1%;
+    padding-left: 30px;
     
   }
   
@@ -50,6 +51,21 @@
   #link_and_social{
     width: 100%;
   }
+
+  #p1-spacer{
+    float: left;
+    width: 25%;
+  }
+  
+  #p2-links{
+    float: left;
+  }
+
+  #p3-social{
+    float: right;
+    padding: 15px;
+  }
+
 
   #Graphic{
     padding-top: 0%;
@@ -274,21 +290,28 @@
       padding: 10px;
       font-weight: 500;
       width: 100%;
+      border-top: 15px solid #F26322;
     }
 
-    #p3-Social{
-        float: right;
-        padding: 15px;
-    }
-
-    #p2-Social{
+    #link_socials{
+        width: 100%;
+      }
+    
+    #p2_links{
         float: left;
+        padding-top: 30px;
     }
 
-    #p1-Social{
+    #p1_spacerl{
         float: left;
         width: 25%;
     }
+
+    #p3_social{
+        float: right;
+        padding-top: 4px;
+    }
+
 
     #para2{
         text-align: center;
@@ -380,6 +403,15 @@
             display: none;
         }
         
+
+        #p2_links{
+            font-size: 12pt;
+        }
+    
+        #p3_social{
+            display: none;
+        }
+
         #para2{
             font-size: 12px;
             display: center;
@@ -387,10 +419,6 @@
             margin-left: 25%;
         }
 
-        .inline-block{
-            display: inline-block;
-            width: 70%;
-        }
 
     }
 
