@@ -3,4 +3,4 @@ console.log("Your index.js file is loaded correctly!");
 function fade(){
     $(".preloader").fadeOut("slow")
 }
-setTimeout(fade, showPage, 3000)
+setTimeout(fade, 3000)
