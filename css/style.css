@@ -8,6 +8,10 @@
     text-decoration-line: underline;
     text-align: center;
   }
+
+  #main-box{
+    width: 100%;
+  }
   
   body{
       margin: 0px;
@@ -24,10 +28,9 @@
   }
   
   .navBar{
-      width: 100%;
+      width: auto;
       color: #FCE53D;
       background-color: #000080;
-      margin-left: none;
   }
 
   .thirtythree{
@@ -362,7 +365,8 @@
         p {
             text-align: left;
             margin-left: 15%;
-            width: 70%;
+            width: 71%;
+            font-size: 13pt;
           }  
         
 
@@ -374,7 +378,7 @@
           }
 
         #para5 {
-            width: 251px;
+            width: 290px;
             margin-bottom: 50px;
             margin-left: 1px;
           } 
@@ -454,6 +458,36 @@
 
 
     }
+
+
+    /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 0%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (min-width: 768px) 
+and (max-width: 1023px) {
+   {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  {
+   width: 100%;
+ }
+}
+
+
 
     @keyframes spin {
         0% {
